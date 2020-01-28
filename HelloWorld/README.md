@@ -3,7 +3,7 @@
 
 
 **시작화면**  
-<img src="/img/1.png" width="300" height="300">
+<img src="/img/1.png" width="300" height="450">
 
 
 **텍스트 필드에 내용을 입력하고 버튼은 클릭 했을 때**
