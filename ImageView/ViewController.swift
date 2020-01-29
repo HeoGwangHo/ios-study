@@ -9,9 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var isZoom = false // 이미디 확대 여부
-    var imgOn: UIImage?
-    var imgOff: UIImage?
+    var isZoom = false // 이미지 확대 여부
+    var imgOn: UIImage? // 켜진 전구 이미지
+    var imgOff: UIImage? // 꺼진 전구 이미지
     
     @IBOutlet var imgView: UIImageView!
     @IBOutlet var btnResize: UIButton!
@@ -20,12 +20,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // 이미지를 할당
         imgOn = UIImage(named: "lamp_on.png")
         imgOff = UIImage(named: "lamp_off.png")
         
         imgView.image = imgOn
     }
 
+    // 버튼에 대한 액션 함수
     @IBAction func btnResizeImage(_ sender: UIButton) {
         let scale:CGFloat = 2.0 // 확대한 배율 값
         var newWidth:CGFloat, newHeight:CGFloat
@@ -46,6 +48,7 @@ class ViewController: UIViewController {
         isZoom = !isZoom
     }
     
+    // 스위치에 대한 액션 함수
     @IBAction func switchImageOnOff(_ sender: UISwitch) {
         if sender.isOn {
             imgView.image = imgOn
