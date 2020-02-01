@@ -6,4 +6,4 @@
 **4.'끄기' 버튼 클릭 시 전구가 꺼져 있거나 제거된 상태이면 동작 X**<br>
 **5.'제거' 버튼 클릭 시 3가지 상태 중에 선택**<br>
 - 실행화면<br>
-
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/60169777/73588457-a9dd5400-450c-11ea-884b-466d3c4dac66.gif)
