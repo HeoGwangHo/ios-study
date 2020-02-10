@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// 이미지 
 class ImageViewController: UIViewController {
     var isZoom = false // 이미디 확대 여부
     var imgOn: UIImage?
