@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// 데이트 피커 뷰
 class DateViewController: UIViewController {
     // 타이머가 구동되면 실행할 함수
     let timeSelector: Selector = #selector(DateViewController.updateTime)
