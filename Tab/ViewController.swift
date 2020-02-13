@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// 초기화면
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
